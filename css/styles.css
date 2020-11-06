@@ -320,12 +320,31 @@ template {
   display: table; }
 
 /*Global*/
-* {
-  margin: 0 auto;
-  padding: 0; }
+.wrapper {
+  width: 600px;
+  margin: 0 auto; }
 
 body {
-  width: 600px;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  background-color: #EAECED; }
+
+h1, h2 {
+  color: #292C34; }
+
+.title1 {
+  color: #606060; }
+
+/*MENU*/
+.menu {
+  width: 484px; }
+
+.menu-list li {
+  float: left; }
+
+.menu-list a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 0.93em;
+  color: #888888; }
 
 /*Breakpoints*/

@@ -1,0 +1,19 @@
+/*normalize*/
+@import 'library/normalize';
+
+/*Configuracion*/
+@import 'config/mixins';
+@import 'config/settings';
+/*Partials*/
+@import 'partials/helpers';
+@import 'partials/global';
+@import 'partials/menu';
+@import 'partials/head-text1';
+@import 'partials/head-text2';
+@import 'partials/text3';
+@import 'partials/collage';
+@import 'partials/gallery';
+@import 'partials/footer';
+@import 'partials/button';
+/*Breakpoints*/
+@import 'Breakpoint/all';

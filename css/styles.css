@@ -423,24 +423,43 @@ h1, h2 {
 .container span {
   color: #888888; }
 
-.box-text1 {
-  background-color: #0071BD; }
+.box-img1 {
+  width: 50%;
+  max-width: 50%;
+  float: left; }
 
 .box-text1 {
-  display: block;
+  background-color: #0071BD;
+  color: #F9F9F9;
+  float: right;
   text-align: center;
-  color: #F9F9F9; }
+  width: 40%;
+  padding: 30px 20px 50px 40px;
+  line-height: 20px;
+  font-size: 0.875rem; }
 
 .box-text2 {
-  background-color: #A4D3F3; }
-
-.box-text2 {
-  display: block;
+  background-color: #A4D3F3;
   text-align: center;
-  color: #F9F9F9; }
+  color: #F9F9F9;
+  width: 40%;
+  padding: 25px 20px 50px 40px;
+  line-height: 20px;
+  font-size: 0.875rem;
+  float: left; }
+
+.box-img2 {
+  float: right; }
 
 .box-text3 {
-  background-color: #333C4D; }
+  background-color: #333C4D;
+  color: #F9F9F9;
+  font-size: 0.875rem;
+  width: 50%;
+  padding: 30px 20px 50px 40px;
+  line-height: 20px;
+  text-align: left;
+  float: right; }
 
 .box-text3 {
   display: block;
@@ -470,6 +489,9 @@ h1, h2 {
 
 .gallery-img {
   text-align: center; }
+
+.specialoffer {
+  background-color: #F9F9F9; }
 
 .footer span {
   color: #888888; }
@@ -538,6 +560,23 @@ h1, h2 {
   font-size: 0.875em; }
 
 .button4 a {
+  padding: 14px 27px 0px 27px;
+  width: 134px;
+  height: 36px;
+  border-radius: 4px; }
+
+/******************/
+.button5 {
+  margin-left: 200px; }
+
+.button5 a {
+  display: block;
+  background-color: #E02D74;
+  text-decoration: none;
+  color: #F9F9F9;
+  font-size: 0.75em; }
+
+.button5 a {
   padding: 14px 27px 0px 27px;
   width: 134px;
   height: 36px;

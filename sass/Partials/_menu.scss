@@ -1,18 +1,32 @@
 /*MENU*/
 
 .menu{
-    width: 484px;
+    float: right;
+}
+
+.menu-bloq h2{
+    font-size: 1em;
+    float: left;
+    padding-top: 18px;
 }
 
 .menu-list{
     li{
+        list-style: none;
         float: left;
     }
     a{
-        list-style: none;
         text-decoration: none;
-        font-size: 0.93em;
         color:$text-color;
+        font-size: 0.875em;
+        font-weight: bold;
     }
 }
 
+.menu-list li + li{
+    margin-left: 22px;
+}
+
+/*.menu-list li{
+    float: left;
+}*/

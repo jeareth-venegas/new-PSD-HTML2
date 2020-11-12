@@ -1,0 +1,31 @@
+/*head text 1*/
+.slider1{
+    width: 75%;
+    max-width: 75%;
+
+}
+.slider1 img{
+    display: block;
+}
+
+.text-bloq1{
+    background-color: $bg-color2;
+}
+
+.text-bloq1{
+    padding: 66px 0 66px 0;
+}
+
+.text-bloq1, h1, span{
+    text-align: center;
+}
+
+.container span{
+    color:$text-color;
+}
+
+
+.text-bloq1 span a{
+    color:$text-link;
+    font-weight: bold;
+}

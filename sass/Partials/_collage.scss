@@ -5,12 +5,15 @@
 .box1{
     width: 100%;
     max-width: 100%;
+    float: left;
 }
 
 .box1{ 
     .box-img1{
         width: 50%;
         max-width: 50%;
+        background-color: red;
+        display: block;
     }
 }
 
@@ -21,9 +24,81 @@
         width:40%;
         padding: 30px 20px 50px 40px;
         line-height:20px;
-        font-size: 0.875rem
+        font-size: 0.875rem;
+        text-align: right;
+        /*text-align: center;*/
     }
 }
+
+.box2{
+    width: 100%;
+    max-width: 100%;
+    float: right;
+}
+
+.box2{ 
+    .box-text2{
+        background-color: $boxtxt-color1;
+        color:$text-color2;
+        width:40%;
+        padding: 30px 20px 50px 40px;
+        line-height:20px;
+        font-size: 0.875rem;
+    }
+}
+
+.box2{ 
+    .box-img2{
+        width: 50%;
+        max-width: 50%;
+        display: block;
+    }
+}
+
+.box3{
+    width: 100%;
+    max-width: 100%;
+}
+
+.box3{ 
+    .box-img3{
+        width: 50%;
+        max-width: 50%;
+        display: block;
+    }
+}
+
+.box3{ 
+    .box-text3{
+        background-color: $boxtxt-color4;
+        color:$text-color2;
+        width:40%;
+        padding: 30px 20px 50px 40px;
+        line-height:20px;
+        font-size: 0.875rem;
+        text-align: center;
+    }
+}
+
+.box4{ 
+    .box-text4{
+        background-color: $boxtxt-color3;
+        color:$text-color2;
+        width:40%;
+        padding: 30px 20px 50px 40px;
+        line-height:20px;
+        font-size: 0.875rem;
+    }
+}
+
+.box4{ 
+    .box-img4{
+        width: 50%;
+        max-width: 50%;
+        display: block;
+    }
+}
+
 
 /*.box-img1{
     width: 50%;

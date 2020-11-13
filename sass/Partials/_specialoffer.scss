@@ -1,3 +1,12 @@
 .specialoffer{
     background-color: $bg-color2;
+    height: 25%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.specialoffer{
+    h2, span{
+        text-align: center;
+    }
 }

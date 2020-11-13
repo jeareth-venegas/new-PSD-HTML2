@@ -312,6 +312,96 @@ template {
 /*text*/
 /****************/
 /*collage*/
+/*Componentes*/
+/*buttons*/
+/*learn more */
+.button1 {
+  margin-left: 200px; }
+
+.button1 a {
+  display: block;
+  background-color: #7BB84F;
+  text-decoration: none;
+  color: #F9F9F9;
+  font-size: 0.875em; }
+
+.button1 a {
+  padding: 14px 27px 0px 27px;
+  width: 134px;
+  height: 36px;
+  border-radius: 4px; }
+
+/****************/
+.button2 {
+  margin-left: 200px; }
+
+.button2 a {
+  display: block;
+  background-color: #F5BA1C;
+  text-decoration: none;
+  color: #F9F9F9;
+  font-size: 0.875em; }
+
+.button2 a {
+  padding: 14px 27px 0px 27px;
+  width: 134px;
+  height: 36px;
+  border-radius: 4px; }
+
+/****************/
+.button3 {
+  background-color: #F9F9F9; }
+
+.button3 {
+  margin-left: 200px; }
+
+.button3 a {
+  display: block;
+  background-color: #40ACEB;
+  text-decoration: none;
+  color: #F9F9F9;
+  font-size: 0.875em; }
+
+.button3 a {
+  padding: 14px 27px 0px 27px;
+  width: 134px;
+  height: 36px;
+  border-radius: 4px; }
+
+/*************/
+.button4 {
+  margin-left: 200px; }
+
+.button4 a {
+  display: block;
+  background-color: #F9F9F9;
+  text-decoration: none;
+  color: #292C34;
+  font-size: 0.875em; }
+
+.button4 a {
+  padding: 14px 27px 0px 27px;
+  width: 134px;
+  height: 36px;
+  border-radius: 4px; }
+
+/******************/
+.button5 {
+  margin-left: 200px; }
+
+.button5 a {
+  display: block;
+  background-color: #E02D74;
+  text-decoration: none;
+  color: #F9F9F9;
+  font-size: 0.75em; }
+
+.button5 a {
+  padding: 14px 27px 0px 27px;
+  width: 134px;
+  height: 36px;
+  border-radius: 4px; }
+
 /*Partials*/
 /*helpers*/
 .clearfix::after {
@@ -430,8 +520,7 @@ h1, h2 {
   width: 50%;
   float: left; }
 
-.box1 .box-img1 {
-  background-color: red;
+.box1 .box-img1 img {
   display: block; }
 
 .box1 .box-text1 {
@@ -454,19 +543,20 @@ h1, h2 {
   line-height: 20px;
   font-size: 0.875rem; }
 
-.box2 .box-img2 {
+.box2 .box-img2 img {
   display: block; }
 
 .box3 {
-  width: 50%; }
+  width: 50%;
+  float: left; }
 
-.box3 .box-img3 {
+.box3 .box-img3 img {
   display: block; }
 
 .box3 .box-text3 {
   background-color: #76B3DD;
   color: #F9F9F9;
-  padding: 30px 20px 50px 40px;
+  padding: 30px 20px 62px 40px;
   line-height: 20px;
   font-size: 0.875rem;
   text-align: center; }
@@ -478,11 +568,11 @@ h1, h2 {
 .box4 .box-text4 {
   background-color: #333C4D;
   color: #F9F9F9;
-  padding: 30px 20px 50px 40px;
+  padding: 30px 20px 68px 40px;
   line-height: 20px;
   font-size: 0.875rem; }
 
-.box4 .box-img4 {
+.box4 .box-img4 img {
   display: block; }
 
 /*.box-img1{
@@ -576,91 +666,5 @@ h1, h2 {
 
 .footer span {
   color: #888888; }
-
-/*buttons*/
-/*learn more */
-.button1 {
-  margin-left: 200px; }
-
-.button1 a {
-  display: block;
-  background-color: #7BB84F;
-  text-decoration: none;
-  color: #F9F9F9;
-  font-size: 0.875em; }
-
-.button1 a {
-  padding: 14px 27px 0px 27px;
-  width: 134px;
-  height: 36px;
-  border-radius: 4px; }
-
-/****************/
-.button2 {
-  margin-left: 200px; }
-
-.button2 a {
-  display: block;
-  background-color: #F5BA1C;
-  text-decoration: none;
-  color: #F9F9F9;
-  font-size: 0.875em; }
-
-.button2 a {
-  padding: 14px 27px 0px 27px;
-  width: 134px;
-  height: 36px;
-  border-radius: 4px; }
-
-/****************/
-.button3 {
-  margin-left: 200px; }
-
-.button3 a {
-  display: block;
-  background-color: #40ACEB;
-  text-decoration: none;
-  color: #F9F9F9;
-  font-size: 0.875em; }
-
-.button3 a {
-  padding: 14px 27px 0px 27px;
-  width: 134px;
-  height: 36px;
-  border-radius: 4px; }
-
-/*************/
-.button4 {
-  margin-left: 200px; }
-
-.button4 a {
-  display: block;
-  background-color: #F9F9F9;
-  text-decoration: none;
-  color: #292C34;
-  font-size: 0.875em; }
-
-.button4 a {
-  padding: 14px 27px 0px 27px;
-  width: 134px;
-  height: 36px;
-  border-radius: 4px; }
-
-/******************/
-.button5 {
-  margin-left: 200px; }
-
-.button5 a {
-  display: block;
-  background-color: #E02D74;
-  text-decoration: none;
-  color: #F9F9F9;
-  font-size: 0.75em; }
-
-.button5 a {
-  padding: 14px 27px 0px 27px;
-  width: 134px;
-  height: 36px;
-  border-radius: 4px; }
 
 /*Breakpoints*/

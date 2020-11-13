@@ -1,9 +1,10 @@
 /*normalize*/
 @import 'library/normalize';
-
 /*Configuracion*/
 @import 'config/mixins';
 @import 'config/settings';
+/*Componentes*/
+@import 'componentes/buttons';
 /*Partials*/
 @import 'partials/helpers';
 @import 'partials/global';
@@ -15,6 +16,5 @@
 @import 'partials/gallery';
 @import 'partials/specialoffer';
 @import 'partials/footer';
-@import 'partials/button';
 /*Breakpoints*/
 @import 'Breakpoint/all';

@@ -8,8 +8,7 @@
 }
 
 .box1{ 
-    .box-img1{
-        background-color: red;
+    .box-img1 img{
         display: block;
     }
 }
@@ -42,17 +41,18 @@
 }
 
 .box2{ 
-    .box-img2{
+    .box-img2 img{
         display: block;
     }
 }
 
 .box3{
     width: 50%;
+    float: left;
 }
 
 .box3{ 
-    .box-img3{
+    .box-img3 img{
         display: block;
     }
 }
@@ -61,7 +61,7 @@
     .box-text3{
         background-color: $boxtxt-color4;
         color:$text-color2;
-        padding: 30px 20px 50px 40px;
+        padding: 30px 20px 62px 40px;
         line-height:20px;
         font-size: 0.875rem;
         text-align: center;
@@ -77,14 +77,14 @@
     .box-text4{
         background-color: $boxtxt-color3;
         color:$text-color2;
-        padding: 30px 20px 50px 40px;
+        padding: 30px 20px 68px 40px;
         line-height:20px;
         font-size: 0.875rem;
     }
 }
 
 .box4{ 
-    .box-img4{
+    .box-img4 img{
         display: block;
     }
 }

@@ -427,20 +427,16 @@ h1, h2 {
   background-color: #F9F9F9; }
 
 .box1 {
-  width: 100%;
-  max-width: 100%;
+  width: 50%;
   float: left; }
 
 .box1 .box-img1 {
-  width: 50%;
-  max-width: 50%;
   background-color: red;
   display: block; }
 
 .box1 .box-text1 {
   background-color: #A4D3F3;
   color: #F9F9F9;
-  width: 40%;
   padding: 30px 20px 50px 40px;
   line-height: 20px;
   font-size: 0.875rem;
@@ -448,52 +444,45 @@ h1, h2 {
   /*text-align: center;*/ }
 
 .box2 {
-  width: 100%;
-  max-width: 100%;
+  width: 50%;
   float: right; }
 
 .box2 .box-text2 {
   background-color: #0071BD;
   color: #F9F9F9;
-  width: 40%;
   padding: 30px 20px 50px 40px;
   line-height: 20px;
   font-size: 0.875rem; }
 
 .box2 .box-img2 {
-  width: 50%;
-  max-width: 50%;
   display: block; }
 
 .box3 {
-  width: 100%;
-  max-width: 100%; }
+  width: 50%; }
 
 .box3 .box-img3 {
-  width: 50%;
-  max-width: 50%;
   display: block; }
 
 .box3 .box-text3 {
   background-color: #76B3DD;
   color: #F9F9F9;
-  width: 40%;
   padding: 30px 20px 50px 40px;
   line-height: 20px;
   font-size: 0.875rem;
   text-align: center; }
 
+.box4 {
+  width: 50%;
+  float: right; }
+
 .box4 .box-text4 {
   background-color: #333C4D;
   color: #F9F9F9;
-  width: 40%;
   padding: 30px 20px 50px 40px;
   line-height: 20px;
   font-size: 0.875rem; }
 
 .box4 .box-img4 {
-  width: 50%;
-  max-width: 50%;
   display: block; }
 
 /*.box-img1{

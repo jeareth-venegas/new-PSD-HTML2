@@ -3,15 +3,12 @@
 }
 
 .box1{
-    width: 100%;
-    max-width: 100%;
+    width:50%;
     float: left;
 }
 
 .box1{ 
     .box-img1{
-        width: 50%;
-        max-width: 50%;
         background-color: red;
         display: block;
     }
@@ -21,7 +18,6 @@
     .box-text1{
         background-color: $boxtxt-color2;
         color:$text-color2;
-        width:40%;
         padding: 30px 20px 50px 40px;
         line-height:20px;
         font-size: 0.875rem;
@@ -31,8 +27,7 @@
 }
 
 .box2{
-    width: 100%;
-    max-width: 100%;
+    width: 50%;
     float: right;
 }
 
@@ -40,7 +35,6 @@
     .box-text2{
         background-color: $boxtxt-color1;
         color:$text-color2;
-        width:40%;
         padding: 30px 20px 50px 40px;
         line-height:20px;
         font-size: 0.875rem;
@@ -49,21 +43,16 @@
 
 .box2{ 
     .box-img2{
-        width: 50%;
-        max-width: 50%;
         display: block;
     }
 }
 
 .box3{
-    width: 100%;
-    max-width: 100%;
+    width: 50%;
 }
 
 .box3{ 
     .box-img3{
-        width: 50%;
-        max-width: 50%;
         display: block;
     }
 }
@@ -72,7 +61,6 @@
     .box-text3{
         background-color: $boxtxt-color4;
         color:$text-color2;
-        width:40%;
         padding: 30px 20px 50px 40px;
         line-height:20px;
         font-size: 0.875rem;
@@ -80,11 +68,15 @@
     }
 }
 
+.box4{
+    width: 50%;
+    float: right;
+}
+
 .box4{ 
     .box-text4{
         background-color: $boxtxt-color3;
         color:$text-color2;
-        width:40%;
         padding: 30px 20px 50px 40px;
         line-height:20px;
         font-size: 0.875rem;
@@ -93,8 +85,6 @@
 
 .box4{ 
     .box-img4{
-        width: 50%;
-        max-width: 50%;
         display: block;
     }
 }

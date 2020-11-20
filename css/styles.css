@@ -738,7 +738,8 @@ h1, h2 {
   text-align: center; }
 
 .bg-btn4 {
-  background-color: #292C34; }
+  background-color: #292C34;
+  height: 100px; }
 
 .specialoffer {
   background-color: #F9F9F9;
@@ -749,6 +750,9 @@ h1, h2 {
 .special h2, .special span {
   width: 500px;
   text-align: center; }
+
+.title6 h2 {
+  margin: 0 auto; }
 
 .footer-p span {
   color: #888888;

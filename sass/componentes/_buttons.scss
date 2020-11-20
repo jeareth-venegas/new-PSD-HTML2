@@ -21,6 +21,10 @@
     border-radius: 4px;
 }
 
+.button1 a:hover{
+    background-color: #8bd456;
+}
+
 /****************/
 
 .button2{
@@ -40,6 +44,11 @@
     width: 134px; height: 36px;
     border-radius: 4px;
 }
+
+.button2 a:hover{
+    background-color: #f8d575;
+}
+
 
 /****************/
 
@@ -65,6 +74,10 @@
     border-radius: 4px;
 }
 
+.button3 a:hover{
+    background-color: #62b8e9;
+}
+
 /*************/
 
 .button4{
@@ -80,11 +93,18 @@
 }
 
 .button4 a{
+    margin-top: 0;
     margin-bottom: 50px;
     padding: 14px 27px 14px 27px;
     width: 134px; height: 36px;
     border-radius: 4px;
 }
+
+.button4 a:hover{
+    background-color: #000000;
+    color: $text-color2;
+}
+
 
 /******************/
 
@@ -104,4 +124,8 @@
     padding: 14px 27px 14px 27px;
     width: 134px; height: 36px;
     border-radius: 4px;
+}
+
+.button5 a:hover{
+    background-color: #e473a0;
 }

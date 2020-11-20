@@ -1,3 +1,24 @@
-.footer span{
+.footer-p span{
     color:$text-color;
+    font-size: 0.75em;
+    float: left;
+    margin-top: 30px;
+}
+
+.footer-p span a{
+    color:$text-color;
+}
+
+.footer{
+    background-color: $bg-color;
+    height: 70px;
+}
+
+.footer-img{
+    margin-top: 30px;
+    float: right;
+}
+
+.footer-img a + a{
+    margin-left: 15px;
 }

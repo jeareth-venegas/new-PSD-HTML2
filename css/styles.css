@@ -372,6 +372,9 @@ body {
   height: 36px;
   border-radius: 4px; }
 
+.button1 a:hover {
+  background-color: #8bd456; }
+
 /****************/
 .button2 {
   text-align: center;
@@ -388,6 +391,9 @@ body {
   width: 134px;
   height: 36px;
   border-radius: 4px; }
+
+.button2 a:hover {
+  background-color: #f8d575; }
 
 /****************/
 .button3 {
@@ -409,6 +415,9 @@ body {
   height: 36px;
   border-radius: 4px; }
 
+.button3 a:hover {
+  background-color: #62b8e9; }
+
 /*************/
 .button4 {
   text-align: center;
@@ -421,11 +430,16 @@ body {
   font-size: 0.875em; }
 
 .button4 a {
+  margin-top: 0;
   margin-bottom: 50px;
   padding: 14px 27px 14px 27px;
   width: 134px;
   height: 36px;
   border-radius: 4px; }
+
+.button4 a:hover {
+  background-color: #000000;
+  color: #F9F9F9; }
 
 /******************/
 .button5 {
@@ -443,6 +457,9 @@ body {
   width: 134px;
   height: 36px;
   border-radius: 4px; }
+
+.button5 a:hover {
+  background-color: #e473a0; }
 
 /*Partials*/
 /*helpers*/
@@ -504,7 +521,7 @@ h1, h2 {
     float: left;
 }*/
 /*head text 1*/
-.slider1 {
+.slider1 img {
   width: 100%;
   max-width: 100%; }
 
@@ -702,7 +719,8 @@ h1, h2 {
 } */
 .gallery {
   background-color: #292C34;
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 100px; }
 
 .gall-text h2 {
   color: #F9F9F9; }
@@ -719,14 +737,35 @@ h1, h2 {
 .gallery-img {
   text-align: center; }
 
+.bg-btn4 {
+  background-color: #292C34; }
+
 .specialoffer {
   background-color: #F9F9F9;
-  height: 25%;
+  height: 250px;
   width: 100%;
   max-width: 100%; }
 
-.specialoffer h2, .specialoffer span {
+.special h2, .special span {
+  width: 500px;
   text-align: center; }
 
-.footer span {
+.footer-p span {
+  color: #888888;
+  font-size: 0.75em;
+  float: left;
+  margin-top: 30px; }
+
+.footer-p span a {
   color: #888888; }
+
+.footer {
+  background-color: #EAECED;
+  height: 70px; }
+
+.footer-img {
+  margin-top: 30px;
+  float: right; }
+
+.footer-img a + a {
+  margin-left: 15px; }

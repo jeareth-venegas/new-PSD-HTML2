@@ -3,6 +3,8 @@
 /*Configuracion*/
 @import 'config/mixins';
 @import 'config/settings';
+/*Breakpoints*/
+@import 'Breakpoint/all';
 /*Componentes*/
 @import 'componentes/buttons';
 /*Partials*/
@@ -16,5 +18,3 @@
 @import 'partials/gallery';
 @import 'partials/specialoffer';
 @import 'partials/footer';
-/*Breakpoints*/
-@import 'Breakpoint/all';

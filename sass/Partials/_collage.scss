@@ -2,7 +2,69 @@
     background-color: $bg-color2;
 }
 
-.box1{
+.box-text1{
+    background-color: $boxtxt-color2;
+    color:$text-color2;
+    padding: 30px 20px 50px 40px;
+    line-height:1.25rem;
+    font-size: 0.875rem;
+    text-align: right;
+}
+
+.box-img1 img{
+    display: block;
+}
+
+.box-text2{
+    background-color: $boxtxt-color1;
+    color:$text-color2;
+    padding: 30px 20px 50px 40px;
+    line-height:1.25rem;
+    font-size: 0.875rem;
+    text-align: right;
+}
+
+.box-img2 img{
+    display: block;
+}
+
+.box-text3{
+    background-color: $boxtxt-color4;
+    color:$text-color2;
+    padding: 30px 20px 62px 40px;
+    line-height:1.25rem;
+    font-size: 0.875rem;
+    text-align: left;
+}
+
+.box-img3 img{
+    display: block;
+}
+
+.box-text4{
+    background-color: $boxtxt-color3;
+    color:$text-color2;
+    padding: 30px 20px 68px 40px;
+    line-height:1.25rem;
+    font-size: 0.875rem;
+    text-align: right;
+}
+
+.box-img4 img{
+    display: block;
+}
+
+.part-1{
+    float: left;
+    width:300px;
+}
+
+.part-2{
+    float: left;
+    width:300px;
+}
+
+/*.box1{
     width:50%;
     float: left;
 }
@@ -21,7 +83,6 @@
         line-height:20px;
         font-size: 0.875rem;
         text-align: right;
-        /*text-align: center;*/
     }
 }
 
@@ -87,71 +148,5 @@
     .box-img4 img{
         display: block;
     }
-}
-
-
-/*.box-img1{
-    width: 50%;
-    max-width: 50%;
-    float:left;
-}
-
-.box-text1{
-    background-color: $boxtxt-color1;
-    color:$text-color2;
-    float:right;
-    text-align: center;
-    width:40%;
-    padding: 30px 20px 50px 40px;
-    line-height:20px;
-    font-size: 0.875rem
-}
-
-.box-text2{
-    background-color: $boxtxt-color2;
-    text-align: center;
-    color:$text-color2;
-    width:40%;
-    padding: 25px 20px 50px 40px;
-    line-height:20px;
-    font-size: 0.875rem;
-    float:left;
-}
-
-.box-img2{
-    float: right;
-}
-
-.box-text3{
-    background-color:$boxtxt-color3;
-    color:$text-color2;
-    font-size: 0.875rem;
-    width:40%;
-    padding: 30px 20px 50px 40px;
-    line-height:20px;
-    text-align: left;
-    float: right;
-    text-align: center;
-    color:$text-color2;
-}
-
-.box-img3{
-    float:left;
-}
-
-.box-text4{
-    background-color:$boxtxt-color4;
-    color: $text-color2;
-    width:40%;
-    padding: 30px 20px 68px 40px;
-    margin-bottom: 30px;
-    float: left;
-    font-size: 0.875rem;
-    line-height:20px;
-}
-
-.box-img4{
-    text-align: center;
-}
-*/
+} */
 

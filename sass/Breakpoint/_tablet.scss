@@ -1,2 +1,39 @@
 @media (max-width:1023px){
 }
+
+.wrapper{
+    position: relative;
+}
+.menu
+    .menu-list li{
+    display: none;
+}
+
+body{
+    background-color: $bg-color;
+}
+
+/*.hamburguer{
+    display: block;
+    position: absolute;
+    top: 43px;
+    right: 0;
+    color: yellow;
+}*/
+
+.hamburguer{
+    float: right;
+    width: 75px;
+    padding-top:30px;
+}
+
+.hamburguer a img{
+    width: 50%;
+    display: block;
+    text-align: center;
+    font-family:'Open Sans', sans-serif;
+}
+
+.hamburguer a img:hover{
+    background-color: #d1d1d1;
+}
